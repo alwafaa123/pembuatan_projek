@@ -126,7 +126,7 @@ void manageProducts(std::vector<Product>& products) {
 
                 if (products.size() < initialSize) {
                     std::cout << "Produk dengan barcode '" << deleteBarcode << "' berhasil dihapus." << std::endl;
-                } else {
+                } else {g+++g
                     std::cout << "Produk dengan barcode '" << deleteBarcode << "' tidak ditemukan." << std::endl;
                 }
                 break;
